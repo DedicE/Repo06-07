@@ -1,0 +1,49 @@
+.titlePocetne {
+    text-align: center;
+    color: orange;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.prvired, .drugired, .trecired{
+    display: flex;
+    align-items: flex-start;
+    justify-content: center;
+}
+
+.prviredslika, .drugiredslika, .treciredslika{
+    position: relative;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-direction: normal;
+    min-width: 0;
+    word-wrap: break-word;
+    text-align: center;
+    margin-top: 20px;
+}
+
+.prviredslika img, .drugiredslika img, .treciredslika img, .prvaslika, .drugaslika, .trecaslika, .prvaslika2, .drugaslika2, .trecaslika2, .prvaslika3, .drugaslika3, .trecaslika3{ 
+    display: block;
+    height: 70%;
+    width: 70%;
+    margin: auto;
+    margin-top: 20px;
+}
+
+p{
+    height: 70%;
+    width: 70%;
+    margin: auto;
+    margin-top: 20px;
+    text-align: center;
+    word-break: break-all;
+    padding-left: 40px;
+    padding-right: 40px;
+}
+.titleslike{
+    color: blue;
+    text-decoration: solid;
+    text-align: start;
+    padding-left: 60px;
+}
+
